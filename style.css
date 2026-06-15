@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: #ffff;
+}
+
+header {
+    background-color: #ffb1e8;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 10px 40px;            
+}
+
+header h1{
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 28px;
+    color: #ffffff; 
+}
+
+h2{
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 28px;
+    color: #070404; 
+}
+
+h3{
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 28px;
+    color: #ff45a2; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #ffb1e8;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;            
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #ff9cd7;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+main h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    margin-bottom: 20px;
+    text-align: center; 
+    padding: 10px 40px;
+}
+
+p, section {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.imagen_home {
+    width: 100%;    
+    max-height: 450px; 
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;     
+    border-collapse: collapse;
+    background-color: #f5bdda;
+    border-radius: 8px;   
+    overflow: hidden;    
+}
+
+table th {
+    background-color: #f7a3cb;
+    color: #ffff;         
+    padding: 12px 20px;    
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table td{
+    padding: 15px 20px;     
+    vertical-align: middle;     
+    text-align: center;
+          
+}
+
+table ul {
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;        
+    padding: 0;
+    margin: 0;
+}
+
+table li {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #444;   
+    height: 100px;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+main.suscripcion {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;            
+    margin: 20px 0;             
+    gap: 40px;                  
+}
+
+.suscripcion_logo {
+    max-width: 35%;            
+    margin: 0;
+}
+
+.suscripcion_formulario {
+    max-width: 500px;
+    margin-left: 120px;
+}
+
+.suscripcion_formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;           
+    max-width: 350px;   
+    margin-top: 25px;   
+    margin-left: 70px;
+}
+
+.suscripcion_formulario input,
+.suscripcion_formulario button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px
+}
+
+.suscripcion_formulario input {
+    border: 1px solid #f5bdda;
+    outline: none;
+}
+
+.suscripcion_formulario button {
+    background-color: #f7a3cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
